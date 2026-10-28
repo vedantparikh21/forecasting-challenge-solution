@@ -1,0 +1,8 @@
+*.egg-info/
+.venv/
+.pytest_cache/
+__pycache__/
+.ipynb_checkpoints/
+# the release data is distributed separately (GitHub Release data-v1) - never commit it
+challenge_data/*
+!challenge_data/README.md
